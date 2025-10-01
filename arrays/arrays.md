@@ -65,3 +65,7 @@ console.log("matrix[1][2]:", matrix[1][2]); // 6
 console.log("=== Demo Complete ===");
 
 ```
+
+## Modifying array element
+
+An array is mutable(modifiable). Once an array is created, we can modify the contents of the array elements.
