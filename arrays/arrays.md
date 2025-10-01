@@ -69,3 +69,40 @@ console.log("=== Demo Complete ===");
 ## Modifying array element
 
 An array is mutable(modifiable). Once an array is created, we can modify the contents of the array elements.
+
+### 1. Modifying by Index
+
+You can replace an element using its index:
+
+```bash
+let fruits = ["apple", "banana", "mango"];
+fruits[1] = "grape"; // replace "banana" with "grape"
+console.log(fruits); // ["apple", "grape", "mango"]
+```
+
+### 2. Adding Elements
+
+```bash
+let fruits = ["apple", "banana"];
+fruits.push("mango"); // add at end
+console.log(fruits); // ["apple", "banana", "mango"]
+```
+
+### 3. Removing Elements
+
+```bash
+let fruits = ["apple", "banana", "mango"];
+fruits.pop();
+console.log(fruits); // ["apple", "banana"]
+```
+
+### 4. Modifying All Elements
+
+Create a new array with modified values:
+
+```bash
+let numbers = [1, 2, 3, 4];
+let doubled = numbers.map(n => n * 2);
+console.log(doubled); // [2, 4, 6, 8]
+
+```
